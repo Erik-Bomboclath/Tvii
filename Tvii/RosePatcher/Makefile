@@ -19,7 +19,7 @@ WUMS_ROOT := $(DEVKITPRO)/wums
 # DATA is a list of directories containing data files
 # INCLUDES is a list of directories containing header files
 #-------------------------------------------------------------------------------
-TARGET		:=	RosePatcher
+TARGET		:=	Debug Tvii
 BUILD		:=	build
 SOURCES		:=	src src/utils src/patches
 DATA		:=	data
