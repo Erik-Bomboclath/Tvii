@@ -8,13 +8,13 @@
 #include "utils/Notification.hpp"
 #include "utils/logger.h"
 
-WUPS_PLUGIN_NAME("Rosé Patcher");
-WUPS_PLUGIN_DESCRIPTION("Patcher for Project Rosé's Nintendo TVii revival service.");
-WUPS_PLUGIN_VERSION("v1.0.0");
-WUPS_PLUGIN_AUTHOR("Project Rosé Team");
+WUPS_PLUGIN_NAME("Tvii Debug Patcher");
+WUPS_PLUGIN_DESCRIPTION("patches tvii to connect to the debug one.");
+WUPS_PLUGIN_VERSION("v0.0.1");
+WUPS_PLUGIN_AUTHOR("Albero");
 WUPS_PLUGIN_LICENSE("GPLv2");
 
-WUPS_USE_STORAGE("rosepatcher");
+WUPS_USE_STORAGE("tviidebugpatcher");
 WUPS_USE_WUT_DEVOPTAB();
 
 INITIALIZE_PLUGIN() {
@@ -32,9 +32,9 @@ INITIALIZE_PLUGIN() {
   }
 
   if (config::connectToRose) {
-    ShowNotification("Rosé patch enabled");
+    ShowNotification("Debug Tvii on");
   } else {
-    ShowNotification("Rosé patch disabled");
+    ShowNotification("Debug Tvii off");
   }
 }
 
