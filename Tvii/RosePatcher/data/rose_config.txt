@@ -1,5 +1,5 @@
 #ur0 is default
-url0:
+url0: https://erik-bomboclath.github.io/Tvii-debug/index.html
 
 # on/off debug print of client
 CallbackDebugPrint:0
@@ -65,8 +65,8 @@ EnableEventLock:1
 # 1:File    (vino uses white-list on file, path is written at 'WhiteList_Path')
 # 2:Network (vino uses white-list on network, path is written at 'WhiteList_Path'. in this mode, white-list is downloaded with a paticular ssl certification for client and server.)
 # 3:Release (vino uses the final environment by each region.)
-WhiteList_Use:2
-WhiteList_Path:https://web-us.l1.us.vino.wup.app.projectrose.cafe/whitelist.txt?country=us
+WhiteList_Use:0
+WhiteList_Path:
 
 # Allow 'file:' and 'http:' scheme. Finally, it is set to 'Not Allow'
 # 0:Not Allow
