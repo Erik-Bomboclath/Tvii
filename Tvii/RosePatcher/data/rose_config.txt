@@ -1,5 +1,5 @@
 #ur0 is default
-url0:https://tvii.l1.us.projectrose.cafe
+url0:
 
 # on/off debug print of client
 CallbackDebugPrint:0
@@ -36,7 +36,7 @@ TVStyle:2
 #LoadUrl
 # 0: Load from WhiteList (If not exist, load from url0.)
 # 1: Load from url0
-LoadUrl:0
+LoadUrl:1
 
 # 0/1 FriendList Contains Temporary Friend and Requested Friend or not.
 # 0:Not Contain
@@ -76,7 +76,7 @@ AllowDebugScheme:1
 # LoadingIcon
 # 0:Not Draw Icon at Pre-loading
 # 1:Draw
-PreLoadIconDraw:0
+PreLoadIconDraw:1
 
 # LayoutColor RGB (0-255)
 
