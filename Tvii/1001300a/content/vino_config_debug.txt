@@ -1,3 +1,0 @@
-JavaScriptErrorPrintOnConsole:1
-ConsoleLogPrint:1
-WhiteList_Use:4
